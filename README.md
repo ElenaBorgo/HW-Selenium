@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/q5aoh4w43q210f27?svg=true)](https://ci.appveyor.com/project/ElenaBorgo/hw-selenium)
