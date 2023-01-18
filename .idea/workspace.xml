@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa578332-2c43-4b24-b497-f83cb204cbb7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CallbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CallbackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       <recent name="C:\Users\Elena\IdeaProjects\HW-Selenium-aqa-47\gradle" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CallbackTest.shouldTest1">
+  <component name="RunManager" selected="Gradle.CallbackTest">
     <configuration name="CallbackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -109,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CallbackTest.shouldTest1" />
         <item itemvalue="Gradle.CallbackTest" />
+        <item itemvalue="Gradle.CallbackTest.shouldTest1" />
       </list>
     </recent_temporary>
   </component>
