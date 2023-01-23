@@ -15,18 +15,16 @@ public class CallbackTest {
 
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--no-sandbox");
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options);
         WebDriverManager.chromedriver().setup();
     }
 
     @BeforeEach
     void setUp() {
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
     }
 
     @AfterEach
@@ -36,7 +34,7 @@ public class CallbackTest {
     }
 
     @Test
-    public void shouldTest1() throws InterruptedException {
+    public void shouldTest1() {
         driver.get("http://localhost:9999");
         driver.findElement(By.cssSelector("[data-test-id = name] input")).sendKeys("Елена Иванова-Петрова");
         driver.findElement(By.cssSelector("[data-test-id = phone] input")).sendKeys("+79995556644");
